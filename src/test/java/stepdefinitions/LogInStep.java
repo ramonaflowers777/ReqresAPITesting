@@ -1,7 +1,5 @@
 package stepdefinitions;
 
-import static io.restassured.RestAssured.*;
-
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,6 +9,8 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
+
+import static io.restassured.RestAssured.*;
 
 public class LogInStep {
     private JSONObject requestBody;

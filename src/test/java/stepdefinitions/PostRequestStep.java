@@ -8,11 +8,11 @@ import io.restassured.response.Response;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 
-import  static  io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.*;
 
 public class PostRequestStep {
     public Response response;
-    public  JSONObject body;
+    public JSONObject body;
 
     @Given("The valid endpoint with payload to create user")
     public void setUpEndpoint() {
